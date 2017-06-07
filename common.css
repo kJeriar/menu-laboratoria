@@ -1,0 +1,25 @@
+@media (min-width: 200px) and (max-width: 534px) {
+    [class*="link"] {
+        width: 100%;
+    }
+    #nav{
+        display: flex;
+        flex-direction: column;/*no separar*/
+    }
+    a{
+        font-family: 'Dancing Script', cursive;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-top-style: solid;
+      }
+    #nav .lista{
+        display: block;
+    }
+   #nav .listado{
+        display: none;
+    }
+    #nav .new{
+        display: block;
+        text-align: left;
+    }
